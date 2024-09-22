@@ -10,3 +10,5 @@
 .env.example.development
 .env.example.test
 .env.example.production
+temp_auto_push.bat
+temp_interactive_push.bat

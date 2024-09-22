@@ -1,4 +1,4 @@
-````markdown
+
 # MERN Stack Template
 
 ## Overview
@@ -39,7 +39,6 @@ Ensure you have the following installed:
    git clone https://github.com/monanksojitra/MERN-Stack-Template.git
    cd mere-stack-template
    ```
-````
 
 2. **Install Dependencies**
 
