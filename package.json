@@ -1,0 +1,31 @@
+{
+  "homepage": "https://github.com/monanksojitra/MERN-Stack-Template#readme",
+  "name": "mern-stack-template",
+  "version": "0.1.0",
+  "description": "A ready-to-deploy MERN stack template for building full-stack applications.",
+  "private": true,
+  "license": "ISC",
+  "author": "monank sojitra <monaksojitra4444@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/monanksojitra/MERN-Stack-Template.git"
+  },
+  "bugs": {
+    "url": "https://github.com/monanksojitra/MERN-Stack-Template/issues",
+    "email": "monaksojitra4444@gmail.com"
+  },
+  "keywords": [
+    "MERN",
+    "full-stack",
+    "template",
+    "web-development"
+  ],
+  "scripts": {
+    "install": "concurrently \"cd ./server && npm install\" \"cd ./client && npm install\"",
+    "start": "concurrently \"cd ./server && npm start\" \"cd ./client && npm run dev\"",
+    "delete-modules": "rm -rf ./node_modules && cd ./server && rm -rf ./node_modules && cd ../client && rm -rf ./node_modules"
+  },
+  "devDependencies": {
+    "concurrently": "^6.3.0"
+  }
+}
